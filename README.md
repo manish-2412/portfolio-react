@@ -1,38 +1,37 @@
-### Description
+Manish’s Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Welcome to my personal portfolio! This is a simple, responsive portfolio template built with React to showcase my work, projects, and skills.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+Features
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+	•	Fully Responsive Design: The portfolio adapts to all screen sizes, providing an optimal experience on desktop, tablet, and mobile devices.
+	•	Multi-Page Layout: Sections like About Me, Projects, and Contact, all neatly organized.
+	•	Contact Form: Integrated with EmailJS for easy inquiries.
+	•	React-Bootstrap: Provides flexibility for customization and responsive layout.
+	•	Easy Content Editing: Edit the content from one central location in the project.
 
-### Features
+Setup
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+1. Clone the repository
 
-### Setup
+To get started, clone the repository to your local machine:
 
-Get the code
+git clone https://github.com/manish-2412/portfolio-react.git
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+2. Install Dependencies
 
-<pre>yarn install</pre>
+Navigate to the project folder and install the required dependencies:
 
+npm install
 
-Start the server
+3. Start the Development Server
 
-<pre>yarn start</pre>
+Run the following command to start the development server:
 
-### More
+npm start
 
-Modify pages content in  `src/content_option.js`.
+This will start the server, and you can view the portfolio in your browser at http://localhost:3000.
 
-### Thanks
+Customization
 
-If you like this portfolio template don't forget give it a ⭐ 
+You can easily modify the content of your portfolio by editing the src/content_option.js file. This file contains all the text content displayed across various sections of the portfolio.
